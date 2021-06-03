@@ -12,8 +12,5 @@ Ncells=100; %Number of cells
 Dr=0.01; %rotational diffusion measured in units of ***
 vs=1;%Speed measured in units of ***
 
-%load('reversal_params.mat')
-%ChiR=ChiRvalue; %Chemotactic bias
-%lambdaRb=LambdaRb; %Basal reversal rate
-ChiR=0.5;
-lambdaRb=0.6;
+ChiR=0.5; %Chemotactic bias
+lambdaRb=0.6; %Basal reversal rate
